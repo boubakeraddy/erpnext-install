@@ -26,4 +26,4 @@ The script sets up:
 Using `curl`:
 
 ```bash
-curl -s https://raw.githubusercontent.com/yourusername/yourrepo/main/install_erpnext_v15.sh | sudo sh
+curl -s https://raw.githubusercontent.com/boubakeraddy/erpnext-install/main/install_erpnext15.sh | sudo sh
