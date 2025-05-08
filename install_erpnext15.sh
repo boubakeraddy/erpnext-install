@@ -13,6 +13,7 @@ ERP_BRANCH=version-15
 PYTHON_VERSION=3.11
 
 echo "Installing dependencies..."
+sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt update
 sudo apt install -y python$PYTHON_VERSION python$PYTHON_VERSION-dev python3-pip python$PYTHON_VERSION-full \
     mariadb-server redis-server curl git software-properties-common \
